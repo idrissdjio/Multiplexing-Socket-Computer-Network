@@ -1,30 +1,14 @@
-# #!/usr/bin/env python
-# # Python Network Programming Cookbook, Second Edition -- Chapter - 2
-# # This program is optimized for Python 3.5.2.
-# # It may run on any other version with/without modifications.
-# # To make it run on Python 2.7.x, needs some changes due to API
-# # differences.
-# # begin with replacing "socketserver" with "SocketServer" throughout the
-# # program.
-# # See more: http://docs.python.org/2/library/socketserver.html
-# # See more: http://docs.python.org/3/library/socketserver.html
+# !/usr/bin/env python
+# Python Network Programming Cookbook, Second Edition -- Chapter - 2
+# This program is optimized for Python 3.5.2.
+# It may run on any other version with/without modifications.
+# To make it run on Python 2.7.x, needs some changes due to API
+# differences.
+# begin with replacing "socketserver" with "SocketServer" throughout the
+# program.
+# See more: http://docs.python.org/2/library/socketserver.html
+# See more: http://docs.python.org/3/library/socketserver.html
 
-# print(
-#     "Server loop running PID: 26479 \n",
-#     "PID 26479 Sending echo message to the server :\n",
-#      "Hello echo server!\n",
-#     "Sent: 18 characters, so far...\n",
-#     "Server sending response [current_process_id: data] = [26481: Hello echo\n",
-#     "server!]\n",
-#     "PID 26479 received: b: Hello echo server!\n",
-#     "First client running\n",
-#     "PID 26479 Sending echo message to the server : Hello echo server!\n",
-#     "Sent: 18 characters, so far...\n",
-#     "Server sending response [current_process_id: data] = [26482: Hello echo\n"
-#     "server!]\n",
-#     "PID 26479 received: b: Hello echo server!\n",
-#     "Second client running\n",
-# )
 
 import os
 import socket
